@@ -31,5 +31,5 @@ test('it rejects a non-js selector', t => {
 	t.false(hasJsSelector('.test'))
 
 	// This one is debatable, feel free to open an issue
-	t.true(hasJsSelector('.no-js'))
+	t.false(hasJsSelector('.no-js'))
 })
