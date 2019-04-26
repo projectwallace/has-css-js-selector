@@ -1,7 +1,7 @@
 {
   "name": "has-css-js-selector",
   "version": "1.0.0",
-  "description": "A test to determine wether a selector contains a universal selector (`*`)",
+  "description": "A test to determine wether a selector contains a JS selector",
   "main": "index.js",
   "scripts": {
     "test": "xo && ava"
